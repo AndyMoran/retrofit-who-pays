@@ -1,7 +1,7 @@
 <!--
 Posting notes (v2, 3 Oct 2026): replaces linkedin_post_ceo.md. Links to
 comms/article_who_pays.md (FIRST COMMENT). Leads the v2 series;
-facilities Thursday, HA leaders the Tuesday after. Figures: v2/src/who_pays_who_gains.py.
+facilities Thursday, HA leaders the Tuesday after. Figures: src/who_pays_who_gains.py.
 -->
 
 Insulating a rented home pays back. Just not to the person who pays for it.

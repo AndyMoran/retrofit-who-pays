@@ -39,6 +39,7 @@ So v2 reports **two archetypes** side by side instead of one:
 | 10 | A pays back in 5.4 years and nets £60,706 | With the loft already topped up (cheap and widespread), the remaining fabric pays back in 9–24 years on bills and nets £5,350–32,650 over 36 years. Carbon falls to 0.35–0.60 t/yr | `src/check_archetype_a_loft.py`, `src/check_archetype_a_tariff_and_baseline.py` |
 | 11 | One payback figure | Split by party. The tenant gets the bill saving (£340–1,200/yr) with no outlay. The landlord pays about £2,500–5,400 net after the Wave 3 grant and gets its return as protection against liability, damp repair and compliance risk, not as bills | `src/who_pays_who_gains.py`; landlord-side figures from storage-heater evidence_map 7 Sep 2026 (EHS 2024–25 damp, Inside Housing £7.8bn, trade repair-cost guides) |
 | 12 | Undiscounted lifetime value only; no delivery risks | Discounted at 3.5% and 5%: the low end of each range turns negative, every case is positive after the Wave 3 grant. New "What could still change this" section: comfort-taking, prices, moisture risk and PAS 2035, limits on external wall insulation (conservation areas, fire rules, leaseholders), heater oversizing, England-only scope, health, embodied carbon | `src/who_pays_who_gains.py` (discounting block) |
+| 13 | Battery headroom (published post): unretrofitted home uses 98% of a 10 kWh battery; flexibility payback ~59 / ~37 / ~16 years, a ~3.8x spread | With the loft already insulated, the unretrofitted home uses ~70%, earns ~£472/yr and pays back in ~29 years (wall insulation only ~22, EPC C ~16, unchanged). The spread is ~1.8x. Direction holds; size about halves | `src/check_battery_headroom_loft.py` |
 
 Unchanged: MEES dates (2030 and 2039), the Decent Homes Criterion D date (2035), £1.29bn for Wave 3, Wave 3 core scope of EPC D–G, the per-property caps, the 36-year fabric life, and the flexibility-revenue warning (£127/yr, about 84 years).
 
@@ -68,4 +69,5 @@ Unchanged: MEES dates (2030 and 2039), the Decent Homes Criterion D date (2035),
 - `src/check_combined_capex_hypothesis.py` — the v1 check with the BUS eligibility fix
 - `src/check_archetype_a_tariff_and_baseline.py` — the tariff and baseline-size checks on Archetype A (run against the repo)
 - `src/check_archetype_a_loft.py` — Archetype A rerun with the loft already insulated
+- `src/check_battery_headroom_loft.py` — battery headroom and flexibility payback, rerun with the loft already insulated
 - `src/who_pays_who_gains.py` — tenant vs landlord split for both archetypes (the numbers the brief and article use)

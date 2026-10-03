@@ -49,6 +49,7 @@ pip install pyyaml
 # Terrace: run against the physics model, unchanged
 python src/check_archetype_a_tariff_and_baseline.py thermal-counterfactual-gb
 python src/check_archetype_a_loft.py thermal-counterfactual-gb
+python src/check_battery_headroom_loft.py thermal-counterfactual-gb
 
 # Flat, the tenant/landlord split, discounting, and the capex re-check
 python src/archetype_b_storage_heated_flat.py

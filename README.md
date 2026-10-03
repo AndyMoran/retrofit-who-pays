@@ -35,6 +35,7 @@ Both come out ahead over a 36-year insulation life before discounting. At a 3.5â
 |---|---|
 | [`brief/STAKEHOLDER_BRIEFS.md`](brief/STAKEHOLDER_BRIEFS.md) | The full brief for CEOs, asset managers and housing association leaders, with caveats |
 | [`comms/article_who_pays.md`](comms/article_who_pays.md) | Public article |
+| [`comms/article_negawatt_corrected.md`](comms/article_negawatt_corrected.md) | Corrected version of the August "negawatt has no salesforce" article |
 | [`comms/article_vpp_funding_ladder.md`](comms/article_vpp_funding_ladder.md) | Follow-up on who funds batteries (terrace only) |
 | [`comms/posts/`](comms/posts/) | Correction post and three short posts |
 | [`src/`](src/) | Every number above, reproducible |
